@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mz</title>
+   
+   
+    <style>
+#box{
+    width: 510px;
+    height: 408px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(255, 240, 240);
+    border-radius: 10px;
+    border: 3px solid black;
+    
+
+}
+#in-box{
+    width: 450px;
+    height: 245px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: antiquewhite;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 3px solid black;
+    
+   
+}
+#time{
+    height:251px;
+    width: 100%;
+    font-size: 60px;
+    color: aliceblue;
+    background-color: black;
+    font-family: fantasy;
+    border-radius: 10px
+
+}
+#data{
+  height: 51px;
+  background-color: rgb(157, 151, 144);
+  color: black;
+  line-height: 3;
+  font-family: fantasy;
+  font-size: larger;
+  border-radius: 10px;
+  border: 3px solid black;
+  width: 448px;
+}
+
+#set-time, #set-data{
+    margin: 0%;
+}
+#set-color{
+    border: none;
+    border-radius: 10px;
+background-color: black;
+position: absolute;
+    top: 147%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+    </style>
+</head>
+<body id="b">
+
+<main id="box">
+<main id="in-box">
+    <div id="time">
+        <h1 id="set-time"> 12:00</h1>
+    </div>
+    <div id="data">
+    <p id="set-data">12-10-2023 </p>
+    </div>
+    <div id="color">
+        <input type="color" id="set-color" onchange="gcolor()">
+    </div>
+</main>
+</main>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
